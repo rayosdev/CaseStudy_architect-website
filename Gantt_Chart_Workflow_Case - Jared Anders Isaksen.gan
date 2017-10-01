@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Lofthus frukt og saft Web Prosjekt" company="Rayos Studio" webLink="http://rayos.studio" view-date="2017-04-16" view-index="0" gantt-divider-location="362" resource-divider-location="417" version="2.8.5" locale="en_US">
+    <description><![CDATA[Creat webpage. Develop Brand, Create Web Content, Testing]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="120" order="0"/>
+        <field id="tpd4" name="Begin date" width="72" order="1"/>
+        <field id="tpd5" name="End date" width="68" order="2"/>
+        <field id="tpd13" name="Resources" width="83" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelLeft" value="resources"/>
+        <option id="taskLabelRight" value="length"/>
+        <option id="color.recent"><![CDATA[#ff9933 #cccccc #ff0000 #0000cc #339900 #99ffcc #009999 #660099 #ffff00 #0099ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="115" order="0"/>
+        <field id="1" name="Default role" width="110" order="1"/>
+        <field id="5" name="Standard rate" width="89" order="2"/>
+        <field id="tpc0" name="Note" width="99" order="3"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Opsstart" color="#009999" meeting="false" start="2017-04-24" duration="26" complete="0" expand="true">
+            <task id="2374" name="Upstarts documents and setup cordenation channels" color="#8cb6ce" meeting="false" start="2017-05-12" duration="12" complete="0" expand="true">
+                <task id="2405" name="SWAT diagram" meeting="false" start="2017-05-12" duration="12" complete="0" expand="true"/>
+                <task id="2408" name="Copy_Figure out hosting" color="#339900" meeting="false" start="2017-05-18" duration="8" complete="0" expand="true" cost-manual-value="250.0" cost-calculated="true"/>
+            </task>
+            <task id="38" name="Project Scoope and Vision" color="#ffff00" meeting="false" start="2017-04-24" duration="12" complete="0" expand="true">
+                <task id="39" name="First meeting with customur" color="#ff9933" meeting="true" start="2017-04-24" duration="0" complete="0" expand="true"/>
+                <task id="40" name="Strategy" color="#0099ff" meeting="false" start="2017-04-25" duration="7" complete="0" expand="false">
+                    <depend id="146" type="2" difference="0" hardness="Strong"/>
+                    <task id="41" name="Target audience" color="#0099ff" meeting="false" start="2017-04-25" duration="3" complete="0" expand="true">
+                        <depend id="42" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="42" name="Customer personas" color="#0099ff" meeting="false" start="2017-04-28" duration="2" complete="0" expand="true">
+                        <depend id="43" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="43" name="Customer journey" color="#0099ff" meeting="false" start="2017-05-02" duration="2" complete="0" expand="true"/>
+                </task>
+                <task id="44" name="Scoop and Vison Agreement Meeting" color="#ff9933" meeting="true" start="2017-05-10" duration="0" complete="0" expand="true"/>
+                <task id="146" name="Create scope and agreement document" color="#ffff00" meeting="false" start="2017-05-04" duration="4" complete="0" expand="true"/>
+            </task>
+            <task id="4" name="Assemble team" color="#660099" meeting="false" start="2017-04-24" duration="26" complete="0" expand="true">
+                <task id="175" name="Hiring advertisments" color="#660099" meeting="false" start="2017-04-24" duration="2" complete="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" name="Interviews" color="#660099" meeting="false" start="2017-04-26" duration="19" complete="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="49" name="Hireing contracts and papir" color="#660099" meeting="false" start="2017-05-23" duration="5" complete="0" expand="true"/>
+            </task>
+            <task id="177" name="Setup the budget" color="#cccccc" meeting="false" start="2017-05-10" duration="6" complete="0" expand="true">
+                <depend id="49" type="2" difference="0" hardness="Strong"/>
+                <depend id="150" type="2" difference="0" hardness="Strong"/>
+                <depend id="2408" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="150" name="Figure out hosting" color="#339900" meeting="false" start="2017-05-18" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="2300" name="Project statues and Buget" color="#660099" meeting="false" start="2017-08-17" duration="13" complete="0" expand="false" cost-manual-value="2625.0" cost-calculated="true">
+            <task id="2302" name="Project inventory" color="#660099" meeting="false" start="2017-08-17" duration="4" complete="0" expand="true" cost-manual-value="250.0" cost-calculated="true">
+                <depend id="2304" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2304" name="Buget review" color="#cccccc" meeting="false" start="2017-08-23" duration="9" complete="0" expand="true" cost-manual-value="1125.0" cost-calculated="true"/>
+            <task id="2373" name="Statues meeting with customur" color="#ff9933" meeting="true" start="2017-09-05" duration="0" complete="0" expand="true" cost-manual-value="5175.0" cost-calculated="true"/>
+        </task>
+        <task id="201" name="Webpage development" color="#339900" meeting="false" start="2017-05-22" duration="122" complete="0" expand="false">
+            <task id="1300" name="Webpage development startup" color="#339900" meeting="false" start="2017-05-22" duration="9" complete="0" expand="false" cost-manual-value="600.0" cost-calculated="true">
+                <task id="1301" name="Platform/technology Research and Prototypes" color="#339900" meeting="false" start="2017-05-25" duration="6" complete="0" expand="true"/>
+                <task id="1302" name="Setup development enviroment" color="#339900" meeting="false" start="2017-05-22" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="1305" name="Page Structure" color="#339900" meeting="false" start="2017-06-02" duration="13" complete="0" expand="false" cost-manual-value="2000.0" cost-calculated="true">
+                <task id="1314" name="User Testing - Page Structure" color="#99ffcc" meeting="false" start="2017-06-05" duration="11" complete="0" expand="false">
+                    <task id="1315" name="test page structure" color="#99ffcc" meeting="false" start="2017-06-05" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1316" name="test page structure" color="#99ffcc" meeting="false" start="2017-06-12" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1317" name="final test page structure" color="#99ffcc" meeting="false" start="2017-06-19" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                </task>
+                <task id="1312" name="Page Structure Implementation" color="#339900" meeting="false" start="2017-06-07" duration="10" complete="0" expand="true"/>
+                <task id="1313" name="Create place holders" color="#339900" meeting="false" start="2017-06-06" duration="1" complete="0" expand="true"/>
+                <task id="1311" name="sketch out structure" color="#339900" meeting="false" start="2017-06-02" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="454" name="CMS (Content Management System)" color="#339900" meeting="false" start="2017-06-21" duration="15" complete="0" expand="false">
+                <task id="1323" name="User Testing - CMS" color="#99ffcc" meeting="false" start="2017-06-26" duration="11" complete="0" expand="false">
+                    <task id="1324" name="customur use the CMS" color="#99ffcc" meeting="false" start="2017-06-26" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1325" name="customur use the CMS" color="#99ffcc" meeting="false" start="2017-07-03" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1326" name="customur use the CMS" color="#99ffcc" meeting="false" start="2017-07-10" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                </task>
+                <task id="1320" name="CMS (Content Management System) Implementation" color="#339900" meeting="false" start="2017-06-26" duration="12" complete="0" expand="true"/>
+                <task id="1321" name="placeholder article and papir protoype" color="#339900" meeting="false" start="2017-06-23" duration="1" complete="0" expand="true"/>
+                <task id="1322" name="CMS research" color="#339900" meeting="false" start="2017-06-21" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="1329" name="Payment / Ordering system Implementasion Implementation" color="#339900" meeting="false" start="2017-07-12" duration="26" complete="0" expand="false">
+                <task id="1332" name="User Testing - Payment / Ordering System" color="#99ffcc" meeting="false" start="2017-07-17" duration="21" complete="0" expand="false">
+                    <task id="1333" name="Private person buying" color="#99ffcc" meeting="false" start="2017-07-17" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1334" name="Private person buying" color="#99ffcc" meeting="false" start="2017-07-24" duration="1" complete="0" expand="true" cost-manual-value="50.0" cost-calculated="true"/>
+                    <task id="1335" name="Business order form" color="#99ffcc" meeting="false" start="2017-07-31" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                    <task id="1336" name="Store trying to make a order or a agrement" color="#99ffcc" meeting="false" start="2017-08-07" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                    <task id="1337" name="Extra testing" color="#99ffcc" meeting="false" start="2017-08-14" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                </task>
+                <task id="1330" name="Payment / Ordering system Implementasion" color="#339900" meeting="false" start="2017-07-24" duration="18" complete="0" expand="true"/>
+                <task id="1429" name="User registration" color="#339900" meeting="false" start="2017-07-14" duration="6" complete="0" expand="true"/>
+                <task id="1331" name="Payment System Research" color="#339900" meeting="false" start="2017-07-12" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="452" name="CRM (Customer Relationship Management)" color="#339900" meeting="false" start="2017-08-17" duration="14" complete="0" expand="false">
+                <task id="1340" name="User Testing - CRM Integration" color="#99ffcc" meeting="false" start="2017-08-28" duration="6" complete="0" expand="false">
+                    <task id="1341" name="Private person integration" color="#99ffcc" meeting="false" start="2017-08-28" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1342" name="Business ordering integration" color="#99ffcc" meeting="false" start="2017-09-04" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                </task>
+                <task id="1343" name="CRM (Customer Relationship Management) Implementation" color="#339900" meeting="false" start="2017-08-23" duration="10" complete="0" expand="true"/>
+                <task id="1344" name="CRM Resarch" color="#339900" meeting="false" start="2017-08-17" duration="4" complete="0" expand="true"/>
+            </task>
+            <task id="446" name="Implement Design" color="#339900" meeting="false" start="2017-09-06" duration="18" complete="0" expand="false">
+                <task id="1358" name="User Testing - Design Test" color="#99ffcc" meeting="false" start="2017-09-11" duration="11" complete="0" expand="false" cost-manual-value="100.0" cost-calculated="true">
+                    <task id="1360" name="Private person use of the page" color="#99ffcc" meeting="false" start="2017-09-11" duration="1" complete="0" expand="true" cost-manual-value="25.0" cost-calculated="true"/>
+                    <task id="1362" name="Business use of the page" color="#99ffcc" meeting="false" start="2017-09-18" duration="1" complete="0" expand="true" cost-manual-value="75.0" cost-calculated="true"/>
+                    <task id="1444" name="Costumor Update Page" color="#99ffcc" meeting="false" start="2017-09-25" duration="1" complete="0" expand="true" cost-manual-value="100.0" cost-calculated="true"/>
+                </task>
+                <task id="458" name="Theme Development" color="#339900" meeting="false" start="2017-09-06" duration="18" complete="0" expand="false">
+                    <task id="1487" name="PHP and Integration" color="#339900" meeting="false" start="2017-09-22" duration="6" complete="0" expand="true"/>
+                    <task id="1488" name="JAVASCRIPT and Animations" color="#339900" meeting="false" start="2017-09-14" duration="6" complete="0" expand="true"/>
+                    <task id="1486" name="HTML and CSS" color="#339900" meeting="false" start="2017-09-06" duration="6" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="1490" name="User Testing - Design and SEO" color="#99ffcc" meeting="false" start="2017-09-29" duration="12" complete="0" expand="false">
+                <task id="1492" name="User testing out all functionallity on page" color="#99ffcc" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true" cost-manual-value="100.0" cost-calculated="true"/>
+                <task id="1504" name="User testing out all functionallity on page" color="#99ffcc" meeting="false" start="2017-10-02" duration="1" complete="0" expand="true"/>
+                <task id="1494" name="Test SEO matrics" color="#99ffcc" meeting="false" start="2017-10-09" duration="1" complete="0" expand="true" cost-manual-value="100.0" cost-calculated="true"/>
+                <task id="1511" name="Conduct tests for security" color="#99ffcc" meeting="false" start="2017-10-16" duration="1" complete="0" expand="true" cost-manual-value="100.0" cost-calculated="true"/>
+            </task>
+            <task id="450" name="SEO (Search Engine Optimization)" color="#339900" meeting="false" start="2017-10-02" duration="6" complete="0" expand="true"/>
+            <task id="449" name="Security/Backup System" color="#339900" meeting="false" start="2017-10-10" duration="9" complete="0" expand="true"/>
+            <task id="1521" name="Make ready for launch" color="#339900" meeting="false" start="2017-10-23" duration="12" complete="0" expand="true" cost-manual-value="1800.0" cost-calculated="true"/>
+            <task id="2081" name="Progress Test With Customur" color="#ff9933" meeting="true" start="2017-06-21" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="202" name="Webpage content creation" color="#ff0000" meeting="false" start="2017-06-20" duration="89" complete="0" expand="false">
+            <task id="2165" name="Setup" color="#ff0000" meeting="false" start="2017-06-22" duration="1" complete="0" expand="true"/>
+            <task id="2080" name="Research and sketches" color="#ff0000" meeting="false" start="2017-06-23" duration="11" complete="0" expand="true"/>
+            <task id="1536" name="Identity elements" color="#ff0000" meeting="false" start="2017-07-10" duration="42" complete="0" expand="false">
+                <task id="1613" name="Style Sheet revison 1" color="#ff0000" meeting="false" start="2017-07-10" duration="10" complete="0" expand="true">
+                    <depend id="2078" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="2173" name="Style Sheet revison 2" color="#ff0000" meeting="false" start="2017-07-24" duration="11" complete="0" expand="true" cost-manual-value="2400.0" cost-calculated="true">
+                    <depend id="2078" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1859" name="Style and Behavoir Guid Guide" color="#ff0000" meeting="false" start="2017-08-10" duration="19" complete="0" expand="false">
+                    <depend id="446" type="2" difference="0" hardness="Strong"/>
+                    <task id="2168" name="Animtaions" color="#ff0000" meeting="false" start="2017-08-24" duration="9" complete="0" expand="true"/>
+                    <task id="2171" name="CSS and HTML examples" color="#ff0000" meeting="false" start="2017-08-10" duration="10" complete="0" expand="true"/>
+                </task>
+                <task id="2078" name="Style Meeting with customur" color="#ff9933" meeting="true" start="2017-08-08" duration="0" complete="0" expand="true"/>
+            </task>
+            <task id="2175" name="Photo content for CMS test articles and for Stylesheet" color="#0000cc" meeting="false" start="2017-06-20" duration="3" complete="0" expand="true">
+                <depend id="1321" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2177" name="Photos for the product pages" color="#0000cc" meeting="false" start="2017-07-03" duration="5" complete="0" expand="true" cost-manual-value="1050.0" cost-calculated="true"/>
+            <task id="2270" name="Articles and Photos" color="#ff0000" meeting="false" start="2017-09-06" duration="17" complete="0" expand="false" cost-manual-value="800.0" cost-calculated="true">
+                <task id="2272" name="Article - About Company" color="#ff0000" meeting="false" start="2017-09-06" duration="4" complete="0" expand="true"/>
+                <task id="2273" name="Photos - Company" color="#0000cc" meeting="false" start="2017-09-08" duration="1" complete="0" expand="true"/>
+                <task id="2274" name="Article - About the Prroduction" color="#ff0000" meeting="false" start="2017-09-12" duration="4" complete="0" expand="true"/>
+                <task id="2275" name="Photos - Production" color="#0000cc" meeting="false" start="2017-09-14" duration="1" complete="0" expand="true"/>
+                <task id="2276" name="Article - Customer stories" color="#ff0000" meeting="false" start="2017-09-18" duration="4" complete="0" expand="true"/>
+                <task id="2277" name="Photos -  Customer stories" color="#0000cc" meeting="false" start="2017-09-20" duration="1" complete="0" expand="true"/>
+                <task id="2278" name="Article - Christmas sale" color="#ff0000" meeting="false" start="2017-09-22" duration="4" complete="0" expand="true"/>
+                <task id="2279" name="Photos -  Christmas sale" color="#0000cc" meeting="false" start="2017-09-25" duration="2" complete="0" expand="true"/>
+                <task id="2280" name="Photos -  Editing" color="#0000cc" meeting="false" start="2017-09-27" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="2282" name="End revision and make ready for launch" color="#ff0000" meeting="false" start="2017-10-03" duration="14" complete="0" expand="true"/>
+        </task>
+        <task id="1529" name="Acceptence try run test" color="#ff9933" meeting="true" start="2017-10-02" duration="0" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="203" name="Acceptence test" color="#ff9933" meeting="true" start="2017-11-09" duration="0" complete="0" expand="true">
+            <depend id="350" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="350" name="Handoff / future coaporation" color="#009999" meeting="false" start="2017-11-09" duration="3" complete="0" expand="false">
+            <task id="365" name="Hosting and cridentials" color="#009999" meeting="false" start="2017-11-09" duration="1" complete="0" expand="true"/>
+            <task id="377" name="Instruction matirai and training" color="#009999" meeting="false" start="2017-11-09" duration="3" complete="0" expand="true"/>
+            <task id="417" name="Page goes live" color="#ff9933" meeting="true" start="2017-11-09" duration="0" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="Note" type="text"/>
+        <resource id="7" name="Jared" function="Default:1" contacts="jared@rayos.studio" phone="10 00 10 00">
+            <rate name="standard" value="250"/>
+        </resource>
+        <resource id="8" name="Clark" function="SoftwareDevelopment:10" contacts="clark@rayos.studio" phone="20 00 20 00">
+            <rate name="standard" value="400"/>
+            <custom-property definition-id="tpc0" value="Hired in accountent"/>
+        </resource>
+        <resource id="9" name="Webster" function="SoftwareDevelopment:9" contacts="Webster@Rayos.studio" phone="30 00 30 00">
+            <rate name="standard" value="200"/>
+        </resource>
+        <resource id="10" name="Kat" function="SoftwareDevelopment:6" contacts="kat@rayos.studio" phone="40 00 40 00">
+            <rate name="standard" value="200"/>
+        </resource>
+        <resource id="11" name="Robin (Photo)" function="Default:0" contacts="robin@take.photo" phone="50 00 50 00">
+            <rate name="standard" value="350"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="6" resource-id="7" function="Default:1" responsible="true" load="25.0"/>
+        <allocation task-id="49" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="7" function="Default:1" responsible="true" load="75.0"/>
+        <allocation task-id="42" resource-id="7" function="Default:1" responsible="true" load="75.0"/>
+        <allocation task-id="43" resource-id="7" function="Default:1" responsible="true" load="75.0"/>
+        <allocation task-id="39" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="44" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="150" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="175" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="177" resource-id="7" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="203" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="201" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1305" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1300" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1315" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1316" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1317" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1324" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1325" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1326" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="454" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1333" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1334" resource-id="7" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="1335" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1336" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1337" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1341" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1342" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1344" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="446" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="1360" resource-id="7" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="1362" resource-id="7" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="1444" resource-id="7" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="1492" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1494" resource-id="7" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="450" resource-id="7" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="1504" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1511" resource-id="7" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="1529" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1536" resource-id="7" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="2078" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2081" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2302" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="2304" resource-id="7" function="Default:1" responsible="true" load="70.0"/>
+        <allocation task-id="2373" resource-id="7" function="Default:1" responsible="true" load="70.0"/>
+        <allocation task-id="2374" resource-id="7" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="2408" resource-id="7" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="177" resource-id="8" function="SoftwareDevelopment:10" responsible="true" load="100.0"/>
+        <allocation task-id="2304" resource-id="8" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
+        <allocation task-id="2373" resource-id="8" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
+        <allocation task-id="1301" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1302" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1311" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1312" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1313" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1320" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1321" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1322" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1331" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="452" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1343" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1344" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1429" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1486" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1488" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1487" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="450" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="449" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="1521" resource-id="9" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="2078" resource-id="10" function="SoftwareDevelopment:6" responsible="false" load="100.0"/>
+        <allocation task-id="1613" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="1859" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2173" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2272" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2274" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2276" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2278" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2270" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2282" resource-id="10" function="SoftwareDevelopment:6" responsible="true" load="100.0"/>
+        <allocation task-id="2175" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2177" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2273" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2275" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2277" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2279" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2280" resource-id="11" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
